@@ -45,7 +45,7 @@ showLoader()
         .then(function (response) {
             const catData = response.data[0];
 
-    const result = `<img src=${catData.url} alt=${catData.breeds[0].name}/>
+    const result = `<div class="cat-img"><img src=${catData.url} alt=${catData.breeds[0].name}/></div>
                  <div class="text-content"><h1 class="cat-name">${catData.breeds[0].name}</h1>
                  <p>${catData.breeds[0].description}</p>
                  <p><span class="cat-temperament">Temperament: </span>${catData.breeds[0].temperament
