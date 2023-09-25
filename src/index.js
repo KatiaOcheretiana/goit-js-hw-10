@@ -1,7 +1,7 @@
 import axios from "axios";
 import { selectors } from "./selectors";
 import { fetchBreeds, fetchCatByBreed } from "./cat-api";
-import {showLoader, hideLoader, hideSelect, showSelect, hideCatInfo, showCatInfo, showError} from "./show-hide-el.js";
+import {showLoader, hideLoader, hideSelect, showSelect, hideCatInfo, showCatInfo} from "./show-hide-el.js";
 
 
 const API_KEY = "live_iOrcxGPLNh9qtia2MFXzkQ97Pfy4zCdnyp5ETGT9VccjJnn1hQ9aiRiVSIRvKFLi"

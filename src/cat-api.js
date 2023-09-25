@@ -1,7 +1,5 @@
 import axios from "axios";
-
-import { selectors } from "./selectors";
-import {showLoader, hideLoader, hideSelect, showSelect, hideCatInfo, showCatInfo, showError} from "./show-hide-el.js";
+import {showError} from "./show-hide-el.js";
 
 
 export function fetchBreeds() {
